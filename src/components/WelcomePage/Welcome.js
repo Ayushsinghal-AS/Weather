@@ -34,7 +34,7 @@ const Welcome = () => {
       </div>
       <div className="welcome-right">
         <img src="weather.png" alt="Umbrella" className="umbrella-image-small" />
-        <h1>Breeze</h1> {/* App title */}
+        <h1>Breeze</h1>
         <p>Current weather and forecasts</p>
         
         {/* Dropdown menu for selecting user type */}
