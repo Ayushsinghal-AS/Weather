@@ -4,6 +4,7 @@ import WeatherCard from "./WeatherCard";
 import WeeklyData from "./WeeklyData";
 
 const WeatherInfo = ({ city }) => {
+
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
@@ -42,7 +43,6 @@ const WeatherInfo = ({ city }) => {
     return <div>Loading...</div>;
   }
 
-
   const cityDetails = {
     address: weatherData.address,
     currentConditions: weatherData.days[0].conditions,
@@ -56,6 +56,7 @@ const WeatherInfo = ({ city }) => {
     img:getWeatherIcon( weatherData.days[0].conditions),
     temp: weatherData.days[0].temp
   }
+  
   const humidityInfo = {
     address: "Humidity",
     currentConditions: '',
@@ -69,6 +70,7 @@ const WeatherInfo = ({ city }) => {
     img:getWeatherIcon("wind"),
     temp: weatherData.days[0].windspeed
   }
+
   return (
     <div className="weather-info">
       <div
