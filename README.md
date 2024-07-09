@@ -2,7 +2,7 @@
 
 ## Overview
 
-Our web application offers specialized services in three primary categories: Farmers, Travelers, and Event Planning. Each category delivers targeted functionalities and information to meet the specific needs of our users.
+This web application offers specialized services in three primary categories: Farmers, Travelers, and Event Planning. Each category delivers targeted functionalities and information to meet the specific needs of the users.
 
 ## Features
 
@@ -10,12 +10,12 @@ Our web application offers specialized services in three primary categories: Far
    - A dropdown menu is available on the Welcome page with the following options:
      - Farmers
      - Travelers
-     - Event Plannin   
-   - B Get started button on Welcome Page to proceed next page
+     - Event Planning   
+   - B Get started button on Welcome Page to proceed on the next page
      
 2. *Location/City Search in Search Bar on Weather Page*
    - Users can search for specific locations.
-   - Serach button for location search.
+   - Search button for location search.
   - Reset button for all data reset.
 
 3. *Weather Card Commponents Display*
