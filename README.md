@@ -11,7 +11,7 @@ This web application offers specialized services in three primary categories: Fa
      - Farmers
      - Travelers
      - Event Planning   
-   - B Get started button on Welcome Page to proceed on the next page
+   - Get started button on Welcome Page to proceed on the next page
      
 2. *Location/City Search in Search Bar on Weather Page*
    - Users can search for specific locations.
@@ -37,11 +37,11 @@ This web application offers specialized services in three primary categories: Fa
 ## Installation
 
 1. Clone the repository:
-   sh
+  ```sh
    git clone https://github.com/Ayushsinghal-AS/Weather.git
    
 3. How to start:
-   sh
+   ```sh
    npm install
    
 4. Clone the repository:
