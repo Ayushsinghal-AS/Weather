@@ -39,11 +39,14 @@ This web application offers specialized services in three primary categories: Fa
 1. Clone the repository:
   ```sh
    git clone https://github.com/Ayushsinghal-AS/Weather.git
+```
    
-3. How to start:
+2. How to start:
    ```sh
    npm install
+   ```
    
-4. Clone the repository:
+3. Clone the repository:
    ```sh
    npm run dev
+   ```
