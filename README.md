@@ -4,6 +4,10 @@
 
 This web application offers specialized services in three primary categories: Farmers, Travelers, and Event Planning. Each category delivers targeted functionalities and information to meet the specific needs of the users.
 
+
+## Application Design
+![alt text](https://res.cloudinary.com/dltsmhfit/image/upload/v1720507763/weather_sketch_mgkmbz.jpg)
+
 ## Features
 
 1. *Dropdown Menu on Welcome Page and Get started button*
