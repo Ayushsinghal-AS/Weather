@@ -76,3 +76,6 @@ These components collectively create a responsive and informative weather applic
 
 ## Technology
    - ReactJS
+   - JavaScript
+   - HTML5
+   - CSS3
