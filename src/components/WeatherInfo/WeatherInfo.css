@@ -1,0 +1,131 @@
+.weather-info {
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(135deg, #000000, #5b548a);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 93vw;
+    margin: 10px auto;
+}
+
+.weather-info .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.weather-info .weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.weather-info .temp {
+    font-size: 2em;
+    margin: 0;
+}
+
+.weather-info .city {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.weather-info .details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.weather-info .details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.weather-info .details img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.weather-info .details p {
+    margin: 0;
+}
+
+
+
+.weather-info {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.weather-icon {
+    width: 100px;
+}
+
+.temp {
+    font-size: 48px;
+}
+
+.city {
+    font-size: 24px;
+}
+
+.daily-forecast {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+
+.day-box {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #6a8cff;
+    border-radius: 10px;
+    background-color: #6a8cff;
+}
+
+.weather-icon-small {
+    width: 38px;
+}
+
+.hourly-forecast-wrapper{
+    overflow-x: scroll;
+}
+
+.hourly-forecast {
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+}
+
+.hour-box {
+    text-align: center;
+    width: calc(100% / 24 - 10px);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #6a8cff;
+    border-radius: 10px;
+    flex-grow: 1;
+    background-color: #6a8cff;
+}
+
+.hour-box2 {
+    text-align: center;
+    width: 15vw;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.weather-icon-img {
+    width: 125px;
+    height: 125px;
+    margin-top: 10px;
+}
+

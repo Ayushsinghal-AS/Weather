@@ -1,0 +1,51 @@
+.weather-map-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 10px 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .weather-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .weather-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .map-container {
+    position: relative;
+    height: 500px;
+    background-image: url('https://assets.api.uizard.io/api/cdn/stream/0c363d67-846f-41b5-9ccb-6261c602667e.png'); 
+    background-size: cover;
+  }
+  
+  .city-marker {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+  }
+  
