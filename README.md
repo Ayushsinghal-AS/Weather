@@ -37,7 +37,7 @@ This web application offers specialized services in three primary categories: Fa
 ## Installation
 
 1. Clone the repository:
-  ```sh
+   ```sh
    git clone https://github.com/Ayushsinghal-AS/Weather.git
    ```
    
