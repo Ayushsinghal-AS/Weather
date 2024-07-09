@@ -33,11 +33,34 @@ This web application offers specialized services in three primary categories: Fa
      - Temparature
      - Day (Weekly Days)
      - Weather Relative Images
+    
+## WeatherInfo Component
+*Purpose:* Fetches weather data from an API based on the specified city and displays the current weather conditions and weekly forecast.
+*Usage:* Renders multiple instances of the WeatherCard and WeeklyData components to display detailed weather information.
+
+## WeatherCard Component
+*Purpose:* Displays current weather information for a specific aspect (like current conditions, humidity, wind speed) in a card format.
+*Usage:* Used by the WeatherInfo component to render different aspects of the current weather conditions.
+
+## WeeklyData Component
+*Purpose:* Displays weather forecast for each day of the week in a concise format.
+*Usage:* Rendered by the WeatherInfo component to display the weekly weather forecast using data fetched from the API.
+
+## Description of Props Used:
+
+Props Passed to WeatherCard:
+*weatherData:* An object containing address, conditions, temp, and img props to display specific weather information.
+Props Passed to WeeklyData:
+*weekData:* Contains daily weather data for a specific day, including datetime, tempmax, and tempmin.
+*index:* Unique key for each day's forecast.
+*img:* Weather icon corresponding to the conditions for that day.
+
+These components collectively create a responsive and informative weather application interface, leveraging React's state management and reusable component architecture.
 
 ## Installation
 
 1. Clone the repository:
-  ```sh
+   ```sh
    git clone https://github.com/Ayushsinghal-AS/Weather.git
    ```
    
@@ -53,3 +76,6 @@ This web application offers specialized services in three primary categories: Fa
 
 ## Technology
    - ReactJS
+   - JavaScript
+   - HTML5
+   - CSS3
