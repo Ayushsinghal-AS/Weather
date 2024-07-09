@@ -79,3 +79,8 @@ These components collectively create a responsive and informative weather applic
    - JavaScript
    - HTML5
    - CSS3
+
+## Weather Sketch File 
+   ```sh
+   https://github.com/Ayushsinghal-AS/Weather/blob/main/weather_sketch.jpg
+   ```
