@@ -16,7 +16,7 @@ This web application offers specialized services in three primary categories: Fa
 2. *Location/City Search in Search Bar on Weather Page*
    - Users can search for specific locations.
    - Search button for location search.
-  - Reset button for all data reset.
+   - Reset button for all data reset.
 
 3. *Weather Card Commponents Display*
    - For all categories, a weather card is displayed with weather relative images after a location search.
@@ -39,7 +39,7 @@ This web application offers specialized services in three primary categories: Fa
 1. Clone the repository:
   ```sh
    git clone https://github.com/Ayushsinghal-AS/Weather.git
-```
+   ```
    
 2. How to start:
    ```sh
@@ -50,3 +50,6 @@ This web application offers specialized services in three primary categories: Fa
    ```sh
    npm run dev
    ```
+
+## Technology
+   - ReactJS
