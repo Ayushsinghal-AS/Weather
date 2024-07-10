@@ -21,13 +21,11 @@ const Weather = () => {
   const checkWeather = async (city) => {
     try {
       const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
-      console.log("response", response);
       if (response.status === 404) {
         setError(true);
         setWeatherData(null);
       } else {
         const data = await response.json();
-        console.log("data", data);
         setWeatherData(data); // Set the fetched data to weatherData state
         setError(false);
       }
