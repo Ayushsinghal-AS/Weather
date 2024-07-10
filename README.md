@@ -6,7 +6,7 @@ This web application offers specialized services in three primary categories: Fa
 
 
 ## Application Design
-![alt text](https://res.cloudinary.com/dltsmhfit/image/upload/v1720507763/weather_sketch_mgkmbz.jpg)
+![alt text](https://res.cloudinary.com/dltsmhfit/image/upload/v1720599148/weather_sketch_xqpq1e.jpg)
 
 ## Features
 
