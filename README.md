@@ -75,7 +75,7 @@ These components collectively create a responsive and informative weather applic
    
 3. Clone the repository:
    ```sh
-   npm run dev
+   npm start
    ```
 
 ## Technology
